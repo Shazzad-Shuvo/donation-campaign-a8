@@ -1,3 +1,4 @@
+import DonationTypes from "../DonationTypes/DonationTypes";
 
 const Home = () => {
     return (
@@ -9,12 +10,13 @@ const Home = () => {
                         <h1 className="mb-5 text-4xl font-bold">I Grow By Helping People In Need</h1>
                         <div className="max-w-sm mx-auto">
                             <input className="rounded-l-lg p-3" type="text" placeholder="Search Here ..." />
-                            <button className="btn btn-primary">Get Started</button>
+                            <button className="rounded-r-lg py-3 px-5 font-semibold bg-[#FF444A]">Search</button>
                         </div>
                     </div>
                 </div>
             </div>
 
+            <DonationTypes></DonationTypes>
 
         </div>
     );

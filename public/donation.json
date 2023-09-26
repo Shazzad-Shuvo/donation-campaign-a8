@@ -1,0 +1,135 @@
+[
+    {
+      "id": 1,
+      "image": "https://i.ibb.co/Ssfht7t/Education.png",
+      "title": "Teacher Training",
+      "category": "Education",
+      "description": "Support training programs for educators.",
+      "price": 60,
+      "category_bg": "#3498db",
+      "card_bg": "#ecf0f1",
+      "text_color": "#2c3e50"
+    },
+    {
+      "id": 2,
+      "image": "https://i.ibb.co/HXkmt4P/Food.png",
+      "title": "Food Drive",
+      "category": "Food",
+      "description": "Provide meals to those facing hunger.",
+      "price": 30,
+      "category_bg": "#e74c3c",
+      "card_bg": "#f5b7b1",
+      "text_color": "#c0392b"
+    },
+    {
+      "id": 3,
+      "image": "https://i.ibb.co/JqtXr99/Clothing.png",
+      "title": "Clothing Assistance",
+      "category": "Clothing",
+      "description": "Provide clothing to those in need.",
+      "price": 20,
+      "category_bg": "#16a085",
+      "card_bg": "#a2d9ce",
+      "text_color": "#1abc9c"
+    },
+    {
+      "id": 4,
+      "image": "https://i.ibb.co/HXkmt4P/Food.png",
+      "title": "Emergency Food Relief",
+      "category": "Food",
+      "description": "Provide immediate food assistance during emergencies.",
+      "price": 40,
+      "category_bg": "#f39c12",
+      "card_bg": "#f0e68c",
+      "text_color": "#d4ac0d"
+    },
+    {
+      "id": 5,
+      "image": "https://i.ibb.co/5LVrYZM/Health.png",
+      "title": "Medical Aid",
+      "category": "Health",
+      "description": "Help cover medical expenses for the less fortunate.",
+      "price": 70,
+      "category_bg": "#e67e22",
+      "card_bg": "#f9e79f",
+      "text_color": "#d35400"
+    },
+    {
+      "id": 6,
+      "image": "https://i.ibb.co/JqtXr99/Clothing.png",
+      "title": "Children's Clothing",
+      "category": "Clothing",
+      "description": "Provide clothing for disadvantaged children.",
+      "price": 15,
+      "category_bg": "#8e44ad",
+      "card_bg": "#d2b4de",
+      "text_color": "#7d3c98"
+    },
+    {
+      "id": 7,
+      "image": "https://i.ibb.co/HXkmt4P/Food.png",
+      "title": "Nutrition Program",
+      "category": "Food",
+      "description": "Support nutrition programs for vulnerable populations.",
+      "price": 35,
+      "category_bg": "#2ecc71",
+      "card_bg": "#a9dfbf",
+      "text_color": "#27ae60"
+    },
+    {
+      "id": 8,
+      "image": "https://i.ibb.co/5LVrYZM/Health.png",
+      "title": "Disease Prevention",
+      "category": "Health",
+      "description": "Fund initiatives for preventing and controlling diseases.",
+      "price": 50,
+      "category_bg": "#e74c3c",
+      "card_bg": "#f5b7b1",
+      "text_color": "#c0392b"
+    },
+    {
+      "id": 9,
+      "image": "https://i.ibb.co/5LVrYZM/Health.png",
+      "title": "Mental Health Support",
+      "category": "Health",
+      "description": "Provide mental health counseling and support.",
+      "price": 40,
+      "category_bg": "#1abc9c",
+      "card_bg": "#a3e4d7",
+      "text_color": "#16a085"
+    },
+    {
+      "id": 10,
+      "image": "https://i.ibb.co/Ssfht7t/Education.png",
+      "title": "Scholarship Program",
+      "category": "Education",
+      "description": "Provide scholarships to underprivileged students.",
+      "price": 30,
+      "category_bg": "#3498db",
+      "card_bg": "#ecf0f1",
+      "text_color": "#2c3e50"
+    },
+    {
+      "id": 11,
+      "image": "https://i.ibb.co/JqtXr99/Clothing.png",
+      "title": "Winter Clothing Drive",
+      "category": "Clothing",
+      "description": "Distribute warm clothing during winter.",
+      "price": 25,
+      "category_bg": "#16a085",
+      "card_bg": "#a2d9ce",
+      "text_color": "#1abc9c"
+    },
+    {
+      "id": 12,
+      "image": "https://i.ibb.co/Ssfht7t/Education.png",
+      "title": "Education Fund",
+      "category": "Education",
+      "description": "Support education for children in need.",
+      "price": 50,
+      "category_bg": "#e67e22",
+      "card_bg": "#f9e79f",
+      "text_color": "#d35400"
+    }
+  ]
+  

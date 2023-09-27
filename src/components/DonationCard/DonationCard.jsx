@@ -4,7 +4,7 @@ const DonationCard = ({ donation }) => {
     const { id, image, title, category, category_bg, card_bg, text_color } = donation;
     return (
         <Link to={`/donate/${id}`}>
-            <div className="card shadow-lg rounded-lg" style={{ backgroundColor: card_bg }}>
+            <div className="card shadow-lg rounded-lg md:h-72" style={{ backgroundColor: card_bg }}>
                 <figure></figure>
                 <img src={image} alt="" />
                 <div className="p-4">

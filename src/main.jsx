@@ -8,9 +8,9 @@ import {
 } from "react-router-dom";
 import Root from './components/Root/Root.jsx';
 import Home from './components/Home/Home.jsx';
-import Donation from './components/Donation/Donation.jsx';
 import Statistics from './components/Statistics/Statistics.jsx';
 import DonationCardDetails from './components/DonationCardDetails/DonationCardDetails.jsx';
+import Donations from './components/Donations/Donations.jsx';
 
 const router = createBrowserRouter([
   {
@@ -23,7 +23,8 @@ const router = createBrowserRouter([
       },
       {
         path: '/donations',
-        element: <Donation></Donation>
+        element: <Donations></Donations>,
+        loader: () => fetch('/donation.json')
       },
       {
         path: '/statistics',

@@ -3,7 +3,6 @@ import DonationCard from "../DonationCard/DonationCard";
 
 const DonationTypes = ({category}) => {
     const [donations, setDonations] = useState([]);
-    const [displayDonations, setDisplayDonations] = useState([]);
 
     console.log(category);
 

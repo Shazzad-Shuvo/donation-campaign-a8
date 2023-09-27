@@ -32,9 +32,11 @@ const Donations = () => {
             </div>
             <div className="text-center my-10">
                 <div className={dataLength === donationsMade.length ? 'hidden' : ''}>
-                    <button
-                        onClick={ () => setDataLength(donationsMade.length)}
-                        className="btn btn-primary">See All</button>
+                    <div className={donationsMade.length <= 4 && 'hidden'}>
+                        <button
+                            onClick={() => setDataLength(donationsMade.length)}
+                            className="btn btn-primary">See All</button>
+                    </div>
                 </div>
             </div>
         </div>

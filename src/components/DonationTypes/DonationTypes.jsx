@@ -1,8 +1,11 @@
 import { useEffect, useState } from "react";
 import DonationCard from "../DonationCard/DonationCard";
 
-const DonationTypes = () => {
+const DonationTypes = ({category}) => {
     const [donations, setDonations] = useState([]);
+    const [displayDonations, setDisplayDonations] = useState([]);
+
+    console.log(category);
 
     useEffect(() => {
         fetch('donation.json')
